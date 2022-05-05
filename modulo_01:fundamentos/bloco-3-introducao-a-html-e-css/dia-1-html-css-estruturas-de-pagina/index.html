@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Calcula Toroide</h1>
+    <section>
+        <div id="enter">
+        <h2>informe os valores abaixo</h2>
+        <p>
+            <code>diametro externo(mm)..............<input type="number" name="numero" id="num"><br></code>
+            <code>diametro interno(mm)..............<input type="number" name="inter" id="intern"></code><br>
+            <code>voltagen de entrada(v~)...........<input type="number" name="input" id="iv"></code><br>
+            <code>voltagem de saida(v~).............<input type="number" name="output" id="vs"></code><br>
+            <code>constante da equação..............<input type="number" name="con" id="co"></code>
+        </p>
+        
+        <input type="button" value="calcular" name="bt" id="dobro" onclick="calcular()">
+    </div>
+    <div id="res"></div>
+    </section>
+    
+</body>
+<script src="script.js"></script>
+</html>
