@@ -1,45 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu-portfólio</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
-    <style>
-        body{
-            background-color: rgb(218, 242, 248)
-        }
     
-        @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
-        
-        h1, h2{
-            font-family: 'Radio Canada', sans-serif;
-        }
-        
-        p, li{
-            font-family:'Roboto Flex', sans-serif;
-        }
-        
-        #foto{
-            border-radius: 9%;
-        }
-        .habc, .habex{
-            font-size: 15pt;
-        }
-        
-    </style>
 </head>
 <body>
-    <div>
-    <h1>Daniel De Jesus Araujo</h1>
-    <img id="foto" src="imagens/image(2).jpg" alt="minha foto" width="250">
-    <p>Me chamo <strong>Daniel</strong> sou <em>Brasileiro</em> moro em <em>Barcarena</em>, <br> uma cidade
-        próximo de <em>Belém</em> do <em>Pará</em>, sou estudante de <br> desenvolvimento web na 
-        <a href="https://www.betrybe.com/" target="_blank">Trybe</a>,
-        estou me esforçando muito e <br> aprendendo bastante coisas novas.
+    <div id="head">
+        <h1>Daniel De Jesus Araujo</h1>
+        <div id="foto">
+            <img id="myfoto" src="imagens/image(2).jpg" alt="minha foto" width="250">
+        </div> 
+        <div id="description">
+            <p>Me chamo <strong>Daniel</strong> sou <em>Brasileiro</em> moro em <em>Barcarena</em>, <br> uma cidade
+                próximo de <em>Belém</em> do <em>Pará</em>, sou estudante de <br> desenvolvimento web na 
+                <a href="https://www.betrybe.com/" target="_blank">Trybe</a>,
+                estou me esforçando muito e <br> aprendendo bastante coisas novas.
+            </p>
+        </div>   
+        
+        
+    </div>
     <p>
         Atualmente estou desenvolvendo esse site como meu portfólio, <br>
         a principio estou usando apenas <a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank">HTML</a> e a maneira
@@ -49,7 +34,7 @@
         curriculares que possuo no momento.
 
     </p>
-
+ 
     <h2>habilidades curriculares</h2>
     <ul id="habc">
         <li class="habc">unix e bash</li>
@@ -80,7 +65,6 @@
         <li><a href="#habc">habilidades curriculares</a></li>
         <li><a href="#sitesf"> blogs e sites favoritos </a></li>
     </p>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
