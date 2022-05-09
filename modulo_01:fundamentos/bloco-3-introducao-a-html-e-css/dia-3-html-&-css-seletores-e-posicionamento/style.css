@@ -17,6 +17,9 @@ p, li{
 .habc, .habex{
     font-size: 15pt;
 }
+div{
+    
+}
 
 
 div, div#foto{
@@ -26,8 +29,13 @@ div, div#foto{
     text-align: center;
 }
 #myfoto{
+    border-radius: 6%;
     width: 200px;
+    padding: 7px;
+    background-color: black;
 }
+
 div#description{
+    margin: 60px 0px 0px 20px;
     vertical-align: top;
 }
