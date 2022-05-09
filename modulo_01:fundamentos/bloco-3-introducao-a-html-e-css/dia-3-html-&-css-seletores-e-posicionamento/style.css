@@ -22,6 +22,9 @@ p, li{
 div, div#foto{
     display: inline-block;
 }
+.meunome{
+    text-align: center;
+}
 #myfoto{
     width: 200px;
 }
