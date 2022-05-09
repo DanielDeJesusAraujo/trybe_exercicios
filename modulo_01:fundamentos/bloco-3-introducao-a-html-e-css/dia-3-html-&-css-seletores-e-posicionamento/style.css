@@ -9,13 +9,22 @@ h1, h2{
     font-family: 'Radio Canada', sans-serif;
 }
 
+
 p, li{
     font-family:'Roboto Flex', sans-serif;
 }
 
-#myfoto{
-    border-radius: 9%;
-}
 .habc, .habex{
     font-size: 15pt;
+}
+
+
+div, div#foto{
+    display: inline-block;
+}
+#myfoto{
+    width: 200px;
+}
+div#description{
+    vertical-align: top;
 }
