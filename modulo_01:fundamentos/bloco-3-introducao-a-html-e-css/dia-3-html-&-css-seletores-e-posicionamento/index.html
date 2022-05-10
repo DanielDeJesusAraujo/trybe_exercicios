@@ -15,7 +15,7 @@
         <div id="foto">
             <img id="myfoto" src="imagens/image(2).jpg" alt="minha foto">
         </div> 
-        <div id="description">
+        <div class="description">
         <p>Me chamo <strong>Daniel</strong> sou <em>Brasileiro</em> moro em <em>Barcarena</em>, <br> uma cidade
                     próximo de <em>Belém</em> do <em>Pará</em>, sou estudante de <br> desenvolvimento web na 
                     <a href="https://www.betrybe.com/" target="_blank">Trybe</a>,
@@ -25,7 +25,7 @@
         
         
     </div>
-    <p>
+    <p class="info">
         Atualmente estou desenvolvendo esse site como meu portfólio, <br>
         a principio estou usando apenas <a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank">HTML</a> e a maneira
         que eu for <br> avançando no curso implementarei novas ferramentas
@@ -34,8 +34,8 @@
         curriculares que possuo no momento.
 
     </p>
- 
-    <h2>habilidades curriculares</h2>
+    <div class="habilidades">
+        <h2>habilidades curriculares</h2>
     <ul id="habc">
         <li class="habc">unix e bash</li>
         <li class="habc">HTML</li>
@@ -51,20 +51,30 @@
         <li class="habex">criativo</li>
         <li class="habex"><em>determinado</em></li>
     </ul>
-    <p id="sitesf">
+    </div>
+    <div class="links">
+        <p id="sitesf">
     <h2>meus sites e blogs favoritos</h2>
-        <li> <a href="https://diolinux.com.br/" target="_blank">diolinux</a></li>
-        <li> <a href="https://techcrunch.com/" target="_blank">TechCrunch</a></li>
-        <li> <a href="https://www.youtube.com/channel/UCbK5Us4E-HsXw6fQ1PYUuog" target="_blank">MW informática</a></li>
-        <li> <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" >Curso em Video</a></li>
+        <ul>
+          <li> <a href="https://diolinux.com.br/" target="_blank">diolinux</a></li>
+          <li> <a href="https://techcrunch.com/" target="_blank">TechCrunch</a></li>
+          <li> <a href="https://www.youtube.com/channel/UCbK5Us4E-HsXw6fQ1PYUuog" target="_blank">MW informática</a></li>
+          <li> <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" >Curso em Video</a></li>  
+        </ul>
+        
     </p>
     <p>
         <strong>links internos</strong>
-        <li><a href="#foto">minha foto</a></li>
-        <li><a href="#habex"> habilidades extra curriculares</a></li>
-        <li><a href="#habc">habilidades curriculares</a></li>
-        <li><a href="#sitesf"> blogs e sites favoritos </a></li>
+        <ul>
+            <li><a href="#foto">minha foto</a></li>
+            <li><a href="#habex"> habilidades extra curriculares</a></li>
+            <li><a href="#habc">habilidades curriculares</a></li>
+            <li><a href="#sitesf"> blogs e sites favoritos </a></li>
+        </ul>
+        
     </p>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
