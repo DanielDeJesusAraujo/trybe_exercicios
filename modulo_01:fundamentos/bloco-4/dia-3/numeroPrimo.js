@@ -1,6 +1,8 @@
-let num = 10;
+
+let num = 50;
 
 let maiPrimo = 0;
+let primos = [];
 for (let index = num; index > 1; index -= 1) {
   let numdivisores = 0;
   for (let cont = index - 1; cont > 1; cont -= 1) {
@@ -12,6 +14,8 @@ for (let index = num; index > 1; index -= 1) {
     if (index > maiPrimo) {
       maiPrimo = index
     }
+    primos.push(index)
   }
 }
-console.log(maiPrimo)
+console.log(primos.reverse())
+console.log(`O maior número pirmo encontrado foi ${maiPrimo}`)
