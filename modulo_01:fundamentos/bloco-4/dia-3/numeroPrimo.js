@@ -18,4 +18,4 @@ for (let index = num; index > 1; index -= 1) {
   }
 }
 console.log(primos.reverse())
-console.log(`O maior número pirmo encontrado foi ${maiPrimo}`)
+console.log(`O maior número primo encontrado foi ${maiPrimo}`)
