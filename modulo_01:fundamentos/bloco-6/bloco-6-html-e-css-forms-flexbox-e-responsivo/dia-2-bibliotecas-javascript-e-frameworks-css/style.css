@@ -1,7 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+h1{
+  text-align: center;
+}
 
-body{
+.container{
+  margin-bottom: 20px;
+}
+
+.resposta{
+  resize: none;
+}
+
+.form-check{
+  padding-left: 35px;
+}
+
+.form-switch{
+  padding-left: 52px;
+}
+
+.data{
+  width: 200px;
+}
+
+.btn-success{
+  margin-right: 80px;
+}
+
+.buttons{
+  margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+/*body{
   font-family: 'Roboto Mono', monospace;
   background-color: rgb(233, 229, 229);
 }
@@ -35,6 +73,6 @@ h1{
 }
 
 #resposta{
-  resize: none; /*redimencionsar = não ou nenhum.*/
+  resize: none; /*redimencionsar = não ou nenhum.
 }
- 
+ */
