@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(218, 242, 248)
+}
+
+.meunome{
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+h1, h2{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+
+p, li{
+    font-family:'Roboto Flex', sans-serif;
+}
+
+.habc, .habex{
+    font-size: 15pt;
+}
+
+div div#foto, div.description{
+    padding-left: 20px;
+    display: inline-block;
+}
+
+div.description{
+    margin: 60px 0px 0px;
+    vertical-align: top;
+}
+p.info{
+    padding-left: 20px;
+}
+
+
+#myfoto{
+    border-radius: 6%;
+    width: 200px;
+    padding: 7px;
+    background-color: black;
+}
+
+.habilidades, .links{
+    padding-left: 20px;
+}
+ul li:nth-child(odd){
+    background-color: aqua;
+}
